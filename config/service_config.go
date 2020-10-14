@@ -2,8 +2,11 @@ package config
 
 import (
 	"github.com/pkg/errors"
-	"gitlab.icsoc.net/cc/gocommon/logger"
-	"gitlab.icsoc.net/cc/gocommon/yaml"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/logger"
+	"github.com/JiaLiangoooo/gocommon/yaml"
 )
 
 type ServiceConfig struct {

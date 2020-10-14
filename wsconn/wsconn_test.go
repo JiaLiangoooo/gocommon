@@ -1,11 +1,17 @@
 package wsconn
 
 import (
-	"github.com/gorilla/websocket"
-	"github.com/stretchr/testify/assert"
 	"net/http"
 	"testing"
 	"time"
+)
+
+import (
+	"github.com/gorilla/websocket"
+)
+
+import (
+	"github.com/stretchr/testify/assert"
 )
 
 func TestWSConnStartWithoutPing(t *testing.T) {

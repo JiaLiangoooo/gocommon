@@ -1,9 +1,12 @@
 package zredis
 
 import (
-	"gitlab.icsoc.net/cc/gocommon/logger"
 	"strings"
 	"sync"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/logger"
 )
 
 type ScriptLoader struct {

@@ -1,6 +1,8 @@
 package config
 
-import "github.com/creasty/defaults"
+import (
+	"github.com/creasty/defaults"
+)
 
 type RedisConfig struct {
 	Addr         string `required:"true" yaml:"addr" json:"addr"`

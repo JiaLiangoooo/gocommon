@@ -1,7 +1,7 @@
 package config
 
 import (
-	"gitlab.icsoc.net/cc/gocommon/logger"
+	"github.com/JiaLiangoooo/gocommon/logger"
 	"os"
 )
 

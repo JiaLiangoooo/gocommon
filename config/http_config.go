@@ -1,8 +1,11 @@
 package config
 
 import (
-	"github.com/creasty/defaults"
 	"time"
+)
+
+import (
+	"github.com/creasty/defaults"
 )
 
 type HttpConfig struct {

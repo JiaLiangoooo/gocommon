@@ -2,7 +2,10 @@ package zredis
 
 import (
 	"github.com/go-redis/redis/v7"
-	"gitlab.icsoc.net/cc/gocommon/config"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/config"
 )
 
 type GoRedisClient struct {

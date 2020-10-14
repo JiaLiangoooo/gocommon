@@ -1,6 +1,8 @@
 package config
 
-import "github.com/creasty/defaults"
+import (
+	"github.com/creasty/defaults"
+)
 
 type RabbitMqConfig struct {
 	Uri        string `required:"true" yaml:"uri" json:"uri"`

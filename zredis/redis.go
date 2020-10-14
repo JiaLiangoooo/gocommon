@@ -2,10 +2,16 @@ package zredis
 
 import (
 	"fmt"
+)
+
+import (
 	"github.com/go-redis/redis/v7"
 	"github.com/pkg/errors"
-	"gitlab.icsoc.net/cc/gocommon/config"
-	"gitlab.icsoc.net/cc/gocommon/logger"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/config"
+	"github.com/JiaLiangoooo/gocommon/logger"
 )
 
 var (

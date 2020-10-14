@@ -1,9 +1,14 @@
 package zredis
 
 import (
-	"github.com/stretchr/testify/assert"
-	"gitlab.icsoc.net/cc/gocommon/config"
 	"testing"
+)
+import (
+	"github.com/stretchr/testify/assert"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/config"
 )
 
 var (

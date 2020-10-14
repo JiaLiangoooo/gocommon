@@ -1,10 +1,16 @@
 package wsconn
 
 import (
-	"github.com/JiaLiangoooo/gocommon/logger"
-	"github.com/gorilla/websocket"
 	"sync"
 	"time"
+)
+
+import (
+	"github.com/gorilla/websocket"
+)
+
+import (
+	"github.com/JiaLiangoooo/gocommon/logger"
 )
 
 const (
