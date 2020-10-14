@@ -1,4 +1,4 @@
-module gitlab.icsoc.net/cc/gocommon
+module github.com/JiaLiangoooo/gocommon
 
 go 1.14
 
