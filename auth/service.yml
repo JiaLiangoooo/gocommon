@@ -1,9 +1,0 @@
-redis:
-  auth:
-    addr: 127.0.0.1:6379
-    user: root
-    password:
-    db: 0
-    min_idle: 100
-auth:
-  host: https://account-test.icsoc.net

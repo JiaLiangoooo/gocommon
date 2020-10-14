@@ -1,0 +1,10 @@
+package wsconn
+
+const (
+	PING_TIMEOUT      = 3000
+	PING_TIMEOUT_TEXT = "连接超时"
+	WRITE_TIMEOUT     = 3001
+	READ_TIMEOUT      = 3002
+
+	UNEXPECTED_CLOSE_ERRORR = 3300
+)
